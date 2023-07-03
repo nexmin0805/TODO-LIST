@@ -29,5 +29,4 @@ public class BoardRequestDto {
                 board.getContent(),
                 board.getMember());
     }
-
 }
