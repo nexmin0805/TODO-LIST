@@ -38,7 +38,7 @@ public class BoardController {
     @PostMapping
     public Response boardPost(@Valid @RequestBody BoardRequestDto boardRequestDto, @RequestParam String nickName) {
         MemberResponseDto memberResponseDto = memberService.findByNickname(nickName);
-        BoardResponseDto boardResponseDto = boardService.save(boardRequestDto,nickName);
+        BoardResponseDto boardResponseDto = boardService.save(boardRequestDto, nickName);
         return Response.success(boardResponseDto);
     }
 
@@ -55,3 +55,4 @@ public class BoardController {
     }
 
 }
+
