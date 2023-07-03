@@ -1,6 +1,5 @@
 package TODOLIST.atom.domain;
 
-import TODOLIST.atom.domain.Board;
 import TODOLIST.atom.domain.base.BaseEntity;
 import TODOLIST.atom.dto.comment.CommentRequestDto;
 import lombok.AccessLevel;
