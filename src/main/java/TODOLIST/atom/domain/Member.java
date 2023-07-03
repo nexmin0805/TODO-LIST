@@ -1,7 +1,5 @@
 package TODOLIST.atom.domain;
 
-import TODOLIST.atom.domain.Board;
-import TODOLIST.atom.domain.MemberRole;
 import TODOLIST.atom.domain.base.BaseEntity;
 import TODOLIST.atom.dto.member.MemberEditRequestDto;
 import TODOLIST.atom.dto.member.MemberRequestDto;
