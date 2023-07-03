@@ -32,7 +32,7 @@ public class MemberRequestDto {
     private MemberRole role;
 
     public static MemberRequestDto toDto(Member member) {
-        return new MemberRequestDto(member.getUsername(), member.getPassword(), member.getNickname(), member.getEmail(), member.getRole());
+        return new MemberRequestDto(member.getUsername(), member.getPassword(), member.getNickname(),
+                member.getEmail(), member.getRole());
     }
-
 }
