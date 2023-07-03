@@ -27,5 +27,4 @@ public class Response {
 
         return new Response(false,code,new Failure(msg));
     }
-
 }
