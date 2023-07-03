@@ -1,5 +1,10 @@
 package TODOLIST.atom.adviser;
 
+import TODOLIST.atom.exception.BoardNotFoundException;
+import TODOLIST.atom.exception.MemberNotFoundException;
+import TODOLIST.atom.exception.UpdateFailureException;
+import TODOLIST.atom.exception.WriteFailureException;
+import TODOLIST.atom.response.Response;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;

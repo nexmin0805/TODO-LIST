@@ -1,11 +1,6 @@
 package TODOLIST.atom.dto.comment;
 
-package dongwoongkim.crud.dto.comment;
-
-import dongwoongkim.crud.domain.Board;
-import dongwoongkim.crud.domain.Comment;
-import dongwoongkim.crud.domain.Member;
-import dongwoongkim.crud.dto.member.MemberResponseDto;
+import TODOLIST.atom.domain.Comment;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

@@ -1,10 +1,19 @@
 package TODOLIST.atom.controller;
 
+import TODOLIST.atom.dto.board.BoardEditRequestDto;
+import TODOLIST.atom.dto.board.BoardRequestDto;
+import TODOLIST.atom.dto.board.BoardResponseDto;
+import TODOLIST.atom.dto.member.MemberResponseDto;
+import TODOLIST.atom.response.Response;
+import TODOLIST.atom.service.BoardService;
+import TODOLIST.atom.service.MemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.*;
+
+import javax.validation.Valid;
 
 @RestController
 @RequestMapping("/boards")

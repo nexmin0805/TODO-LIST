@@ -1,5 +1,8 @@
 package TODOLIST.atom.dto.comment;
 
+import TODOLIST.atom.domain.Board;
+import TODOLIST.atom.domain.Comment;
+import TODOLIST.atom.domain.Member;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Data;

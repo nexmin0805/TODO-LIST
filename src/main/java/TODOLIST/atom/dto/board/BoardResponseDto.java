@@ -1,6 +1,7 @@
 package TODOLIST.atom.dto.board;
 
 import TODOLIST.atom.domain.Board;
+import TODOLIST.atom.dto.comment.CommentResponseDto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

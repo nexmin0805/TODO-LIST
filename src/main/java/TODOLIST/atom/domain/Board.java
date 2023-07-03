@@ -1,6 +1,8 @@
 package TODOLIST.atom.domain;
 
 import TODOLIST.atom.domain.base.BaseEntity;
+import TODOLIST.atom.dto.board.BoardEditRequestDto;
+import TODOLIST.atom.dto.board.BoardRequestDto;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
