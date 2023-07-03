@@ -18,7 +18,7 @@ public class CommentResponseDto {
     private Long boardId;
     private Long memberId;
     public static CommentResponseDto toDto(Comment comment) {
-        return new CommentResponseDto(comment.getComment(), comment.getMember().getNickname(), comment.getBoard().getId(), comment.getMember().getId());
-
+        return new CommentResponseDto(comment.getComment(), comment.getMember().getNickname(),
+                comment.getBoard().getId(), comment.getMember().getId());
     }
 }
