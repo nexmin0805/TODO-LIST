@@ -8,7 +8,7 @@
 - 메인 기능
   - 1. 게시판 - CRUD 기능, 페이징, 검색
   - 2. 댓글 - CRUD 기능
-  - 3. 회원 - Security 회원가입, 로그인, 회원정보 수정, 유효성 및 중복 검사 ( 추후 Security 학습 이후 진행 예정)
+  - 3. 회원 - Security 회원가입, 로그인, 회원정보 수정, 유효성 및 중복 검사
 - 서브 기능
   - 
 
@@ -17,7 +17,7 @@
 # 1. 데이터 베이스 설계
 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b6d906c6-f145-4e0e-bc4f-4ea17ae40d79/Untitled.png)
+
 
 # 2. **API 설계 - CRUD**
 
