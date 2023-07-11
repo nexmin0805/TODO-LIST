@@ -15,7 +15,7 @@
 ---
 
 # 1. 데이터 베이스 설계
-<img src="https://github.com/nexmin0805/TODO-LIST/assets/65328995/94ebf1dc-6792-4b46-a92a-d25d82093550.png" width="1000" height="400"/>
+<img src="https://github.com/nexmin0805/TODO-LIST/assets/65328995/94ebf1dc-6792-4b46-a92a-d25d82093550.png" width="500" height="300"/>
 
 
 
