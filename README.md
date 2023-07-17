@@ -1,6 +1,5 @@
 # 개요
 
-- 명칭 : Spring Boot 게시판 API 구현
 - 개발 언어 : Java 11
 - 개발 환경 : Spring Boot 2.7.12
 - 데이터베이스 : H2
